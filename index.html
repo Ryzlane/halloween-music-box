@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Music box</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/ghost-1.png" />
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div class="rules">
+    <h2>Hello stranger!</h2>
+    <p>Welcome to the Halloween Music Box. You can open it by clicking on the button below if you want to heard the typical song we putted inside.</p>
+    <div class="ghostRules"><img src="images/ghost-rules.png" alt="ghost">
+      <div class="eyes">
+        <div class="eye"></div>
+        <div class="eye"></div>
+      </div>
+    </div>
+    <input type="button" id="button" class="closed" value="Trick or treat">
+  </div>
+  <section>
+    <h1>The Halloween Music Box</h1>
+    <div class="perspective">
+      <div class="box">
+        <div class="carousel">
+          <div class="ghosts ghost-1 ghostFront"><img src="images/ghost-1.png" alt="ghost"></div>
+          <div class="ghosts ghost-1 ghostBack"><img src="images/ghost-back.png" alt="ghost"></div>
+          <div class="ghosts ghost-2 ghostFront"><img src="images/ghost-2.png" alt="ghost"></div>
+          <div class="ghosts ghost-2 ghostBack"><img src="images/ghost-back.png" alt="ghost"></div>
+          <div class="ghosts ghost-3 ghostFront"><img src="images/ghost-3.png" alt="ghost"></div>
+          <div class="ghosts ghost-3 ghostFront"><img src="images/ghost-3.png" alt="ghost"></div>
+          <div class="ghosts ghost-3 ghostBack"><img src="images/ghost-back.png" alt="ghost"></div>
+          <div class="ghosts ghost-4 ghostFront"><img src="images/ghost-4.png" alt="ghost"></div>
+          <div class="ghosts ghost-4 ghostBack"><img src="images/ghost-back.png" alt="ghost"></div>
+        </div>
+        <div class="bottom">
+          <div class="front"><img src="images/front.png" alt="front of the box">
+          </div>
+          <div class="back"><img src="images/back.png" alt="back of the box"></div>
+          <div class="right"><img src="images/sides.png" alt="right side of the box"></div>
+          <div class="left"><img src="images/sides.png" alt="left side of the box"></div>
+          <div class="top topInside closed"><img src="images/down.png" alt="top side of the box"></div>
+          <div class="top topOutside closed"><img src="images/top.png" alt="top side of the box"></div>
+          <div class="ground"><img src="images/ground.png" alt="ground of the box"></div>
+          <div class="down"><img src="images/down.png" alt="down of the box"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <audio id="audioPlayer" src="audio/this_is_halloween.mp3"></audio>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
